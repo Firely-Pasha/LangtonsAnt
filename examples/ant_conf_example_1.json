@@ -1,0 +1,32 @@
+{
+  "title": "Langton's Ant test",
+  "initialSpeed": 30,
+  "width": 50,
+  "height": 50,
+  "ants": [
+    {
+      "name": "Ant 1",
+      "position": [15, 15],
+      "initialDirection": "l",
+      "color": [30, 30, 30],
+      "footstep": {
+        "rotation": "l",
+        "color": [255, 0, 0]
+      }
+    },
+    {
+      "name": "Ant 2",
+      "position": [10, 15],
+      "initialDirection": "f",
+      "color": [30, 30, 30],
+      "footstep": {
+        "rotation": "l",
+        "color": [255, 255, 0]
+      }
+    }
+  ],
+  "defaultCellType": {
+    "rotation": "r",
+    "color": [255, 255, 255]
+  }
+}
